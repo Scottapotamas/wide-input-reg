@@ -2491,7 +2491,7 @@
   )
 
   (module Applidyne_Logo:FIRE_LOGO_320X420 (layer F.Cu) (tedit 0) (tstamp 5BF62056)
-    (at 166.1 113.8)
+    (at 156.325 105.35)
     (path /5C1BFC75)
     (fp_text reference LOGO3 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))

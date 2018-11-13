@@ -15,7 +15,13 @@ While the regulator and most parts are capable of 100VDC inputs, I've intended t
 
 Onboard output voltage and current sensing is achieved with the INA219 I2C sense IC, which allows the output voltage and current to be accurately reported to a host microcontroller.
 
-Regulator provides some minimal status indication with 2 leds mounted near the input connector, the red LED indicates the presence of input voltage, and the green LED indicates the presence of an output voltage. These LED's are 'dumb' and do not indicate if the input/output voltages are _correct_.
+Regulator provides some minimal status indication with 2 leds mounted near the input connector: 
+
+- Red LED indicates the presence of input voltage, and the 
+
+- Green LED indicates the presence of an output voltage. 
+
+- These LED's are 'dumb' and do not indicate if the input/output voltages are _correct_.
 
 A series of onboard solder link jumpers are used to set the I2C address of the INA219, for systems which use multiple regulator boards for different logic levels.
 
