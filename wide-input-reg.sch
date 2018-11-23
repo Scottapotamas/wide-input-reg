@@ -161,17 +161,6 @@ F 10 "10" V 1560 6025 20  0001 C CNN "Supplier Price Break"
 	1    1225 6175
 	1    0    0    1   
 $EndComp
-$Comp
-L appli_power:+POWER #PWR02
-U 1 1 5ABC5F0E
-P 1225 5025
-F 0 "#PWR02" H 1225 4975 20  0001 C CNN
-F 1 "+POWER" H 1228 5163 30  0000 C CNN
-F 2 "" H 1225 5025 60  0000 C CNN
-F 3 "" H 1225 5025 60  0000 C CNN
-	1    1225 5025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1225 5025 1225 5075
 Wire Wire Line
@@ -4233,4 +4222,15 @@ Wire Wire Line
 Connection ~ 2600 8100
 Wire Wire Line
 	2600 8100 2325 8100
+$Comp
+L appli_power:+BATT #PWR?
+U 1 1 5BF96C7F
+P 1225 5025
+F 0 "#PWR?" H 1225 4975 20  0001 C CNN
+F 1 "+BATT" H 1228 5163 30  0000 C CNN
+F 2 "" H 1225 5025 60  0000 C CNN
+F 3 "" H 1225 5025 60  0000 C CNN
+	1    1225 5025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
