@@ -3,6 +3,9 @@ This is a smaller board that follows the successful design used on the zaphod-bo
 
 This board is intended as a medium scale (~50-100W) standalone version for use with 12S lipo systems (48Vish) and similar high voltage supplies, as its hard to get a high input voltage regulator from Pololu etc.
 
+![isometric render view of pcb](/images/render-iso.png)
+      
+
 ## Design Notes
 
 ### Regulator
@@ -31,3 +34,5 @@ A series of onboard solder link jumpers are used to set the I2C address of the I
 
 - Data is a JST-GH locking 6-pin connector, which should provide 3.3V, and I2C from the host system. 
   - An (optionally connected) 3.3V analog signal provides input voltage sensing for an ADC, with a 27:1 divider.
+  
+![top render view of pcb](/images/render-top.png)
