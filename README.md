@@ -1,5 +1,5 @@
 # Wide input (HV) DC Step-down Regulator
-This is a smaller board that follows the successful design used on the zaphod-bot delta robot, which used 75VDC input and 12V output, tested at 4A with 96% efficiency.
+This is a smaller board that follows the successful design used on the zaphod-bot delta robot, which used 75VDC input and 12V output, tested at 4A load with 96% efficiency.
 
 This board is intended as a medium scale (~50-100W) standalone version for use with 12S lipo systems (48Vish) and similar high voltage supplies, as its hard to get a high input voltage regulator from Pololu etc.
 
@@ -27,7 +27,7 @@ A series of onboard solder link jumpers are used to set the I2C address of the I
 
 ### Connectors
 
-- Input power connection with Molex Sabre connectors, output with Molex Minifit. 
+- Input power connection with Molex Sabre 2-pin connector, output with Molex Minifit 4-pin. 
 
 - Data is a JST-GH locking 6-pin connector, which should provide 3.3V, and I2C from the host system. 
   - An (optionally connected) 3.3V analog signal provides input voltage sensing for an ADC, with a 27:1 divider.
